@@ -1,7 +1,5 @@
 'use client'
 
-import { Plus, RefreshCw, Trash2 } from 'lucide-react';
-import React, { ChangeEvent, KeyboardEvent, useEffect, useState } from 'react';
 import {
   AlertDialog,
   AlertDialogAction,
@@ -12,12 +10,15 @@ import {
   AlertDialogHeader,
   AlertDialogTitle,
   AlertDialogTrigger,
-} from "../components/ui/alert-dialog";
-import { Button } from "../components/ui/button";
-import { Card, CardContent, CardHeader, CardTitle } from "../components/ui/card";
-import { Checkbox } from "../components/ui/checkbox";
-import { Input } from "../components/ui/input";
-import { Progress } from "../components/ui/progress";
+} from "@/components/ui/alert-dialog";
+import { Button } from "@/components/ui/button";
+import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import { Checkbox } from "@/components/ui/checkbox";
+import { Input } from "@/components/ui/input";
+import { Progress } from "@/components/ui/progress";
+import { Plus, RefreshCw, Trash2 } from 'lucide-react';
+import React, { ChangeEvent, KeyboardEvent, useEffect, useRef, useState } from 'react';
+import Confetti from 'react-confetti';
 
 interface Task {
   id: number;
@@ -29,6 +30,8 @@ const TodoApp: React.FC = () => {
   const [tasks, setTasks] = useState<Task[]>([]);
   const [newTask, setNewTask] = useState<string>('');
   const [progress, setProgress] = useState<number>(0);
+  const [showConfetti, setShowConfetti] = useState<boolean>(false);
+  const prevProgressRef = useRef<number>(0);
 
   useEffect(() => {
     const savedTasks = JSON.parse(localStorage.getItem('tasks') || '[]') as Task[];
@@ -39,6 +42,14 @@ const TodoApp: React.FC = () => {
     const completedTasks = tasks.filter(task => task.completed).length;
     const newProgress = tasks.length > 0 ? (completedTasks / tasks.length) * 100 : 0;
     setProgress(newProgress);
+
+    // Check if progress changed from less than 100% to exactly 100%
+    if (prevProgressRef.current < 100 && newProgress === 100 && tasks.length > 0) {
+      setShowConfetti(true);
+      setTimeout(() => setShowConfetti(false), 5000); // Hide confetti after 5 seconds
+    }
+
+    prevProgressRef.current = newProgress;
   }, [tasks]);
 
   const saveTasks = (updatedTasks: Task[]) => {
@@ -88,6 +99,7 @@ const TodoApp: React.FC = () => {
 
   return (
     <Card className="w-full max-w-md mx-auto">
+      {showConfetti && <Confetti />}
       <CardHeader>
         <CardTitle>Microtasks</CardTitle>
       </CardHeader>
