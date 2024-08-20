@@ -1,8 +1,8 @@
-# 🚀 Microtask Momentum
+# 🚀 Microtask
 
-Microtask Momentum is a straightforward and minimalist To-Do list application. Built with React and the shadcn/ui component library, it offers a clean and easy-to-use interface for basic task management.
+Microtask is a straightforward and minimalist To-Do list application. Built with React and the shadcn/ui component library, it offers a clean and easy-to-use interface for basic task management.
 
-You can now access Microtask Momentum from anywhere! Check it out here:
+You can now access Microtask from anywhere! Check it out here:
 
 [https://microtask.vercel.app/](https://microtask.vercel.app/)
 
@@ -28,7 +28,7 @@ Feel free to share this link with friends, family, or anyone who needs a cool ta
 
 ## 🚀 Quick Start
 
-Get Microtask Momentum running on your machine:
+Get Microtask running on your machine:
 
 1. Clone the repo
 2. Install the goodies:
@@ -52,7 +52,7 @@ Get Microtask Momentum running on your machine:
 
 ## 🚀 Deployment
 
-Microtask Momentum is living in the cloud thanks to Vercel. Want your own instance? Here's how:
+Microtask is living in the cloud thanks to Vercel. Want your own instance? Here's how:
 
 1. Get a Vercel account at https://vercel.com
 2. Install Vercel's magic wand (CLI):
@@ -74,7 +74,7 @@ Vercel will give you a shiny new URL where your app lives. For future updates, j
 
 ## 🌈 Customization
 
-Microtask Momentum is designed to be easily customizable. You can fork this project and make it your own in just a few steps:
+Microtask is designed to be easily customizable. You can fork this project and make it your own in just a few steps:
 
 1. Fork the repository on GitHub
 2. Clone your forked repository to your local machine
@@ -85,9 +85,9 @@ Microtask Momentum is designed to be easily customizable. You can fork this proj
 4. Push your changes back to your GitHub repository
 5. Deploy your customized version using Vercel (see Deployment section above)
 
-The project structure is simple and the code is well-commented, making it easy for you to understand and modify. Feel free to experiment and make Microtask Momentum truly your own!
+The project structure is simple and the code is well-commented, making it easy for you to understand and modify. Feel free to experiment and make Microtask truly your own!
 😎✨
 
 ## 🎉 Conclusion
 
-Microtask Momentum is now cooler, more accessible, and ready to help you conquer your tasks in style! With features like quick task addition with Enter key and real-time progress tracking, managing your to-dos has never been easier. Enjoy your productive journey! 🚀✨
+Microtask is now cooler, more accessible, and ready to help you conquer your tasks in style! With features like quick task addition with Enter key and real-time progress tracking, managing your to-dos has never been easier. Enjoy your productive journey! 🚀✨
