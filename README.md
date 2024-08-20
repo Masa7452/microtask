@@ -4,7 +4,7 @@ Microtask Momentum is a straightforward and minimalist To-Do list application. B
 
 You can now access Microtask Momentum from anywhere! Check it out here:
 
-[https://microtask.vercel.app/](https://microtask-momentum.vercel.app)
+[https://microtask.vercel.app/](https://microtask.vercel.app/)
 
 Feel free to share this link with friends, family, or anyone who needs a cool task management tool!
 😎✨
