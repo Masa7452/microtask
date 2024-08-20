@@ -4,7 +4,7 @@ Microtask Momentum is a straightforward and minimalist To-Do list application. B
 
 You can now access Microtask Momentum from anywhere! Check it out here:
 
-[https://microtask-momentum.vercel.app](https://microtask-momentum.vercel.app)
+[https://microtask.vercel.app/](https://microtask-momentum.vercel.app)
 
 Feel free to share this link with friends, family, or anyone who needs a cool task management tool!
 😎✨
@@ -13,7 +13,6 @@ Feel free to share this link with friends, family, or anyone who needs a cool ta
 
 - ➕ Add new tasks with a click or press Enter
 - ✅ Mark tasks as completed
-- 💾 Save frequently used tasks for easy access
 - 🗑️ Remove tasks effortlessly
 - 📊 Watch your progress in real-time
 - 🔄 Reset all tasks to uncompleted state
@@ -44,13 +43,12 @@ Get Microtask Momentum running on your machine:
 
 ## 🎮 How to Use
 
-- Type your task and press Enter or click the "+" button to add it
-- Click the checkbox to mark a task as complete
-- Click the save icon to keep frequently used tasks
+- Type your task in the input field and press Enter or click the "+" button to add it
+- Click the checkbox next to a task to mark it as complete
 - Click the trash icon to remove a task
-- Track your overall progress with the progress bar
-- Use the "Reset All Tasks" button to mark all tasks as uncompleted
-- Use the "Delete All Tasks" button to remove all tasks at once
+- Track your overall progress with the progress bar at the top
+- Use the "Reset all tasks" button to mark all tasks as uncompleted
+- Use the "Delete all tasks" button to remove all tasks at once (confirmation required)
 
 ## 🚀 Deployment
 
@@ -92,4 +90,4 @@ The project structure is simple and the code is well-commented, making it easy f
 
 ## 🎉 Conclusion
 
-Microtask Momentum is now cooler, more accessible, and ready to help you conquer your tasks in style! With new features like task saving and quick task addition with Enter key, managing your to-dos has never been easier. Enjoy your productive journey! 🚀✨
+Microtask Momentum is now cooler, more accessible, and ready to help you conquer your tasks in style! With features like quick task addition with Enter key and real-time progress tracking, managing your to-dos has never been easier. Enjoy your productive journey! 🚀✨
