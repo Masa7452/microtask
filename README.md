@@ -2,6 +2,12 @@
 
 Microtasks is an advanced and intuitive task management application. Built with React and the shadcn/ui component library, it offers a clean and powerful interface for hierarchical task management.
 
+You can now access Microtask from anywhere! Check it out here:
+
+[https://microtask.vercel.app/](https://microtask.vercel.app/)
+
+Feel free to share this link with friends, family, or anyone who needs a cool task management tool!
+
 ## 🌟 Features
 
 - 📊 Hierarchical task structure with Big Tasks and Microtasks
