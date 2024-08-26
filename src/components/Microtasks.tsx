@@ -254,7 +254,7 @@ const BigTaskComponent: React.FC<{
   );
 };
 
-const Microtasks: React.FC = () => {
+const Microtask: React.FC = () => {
   const [bigTasks, setBigTasks] = useState<BigTask[]>([]);
   const [newBigTask, setNewBigTask] = useState('');
   const [progress, setProgress] = useState(0);
@@ -363,7 +363,7 @@ const Microtasks: React.FC = () => {
       <Card className="w-full max-w-md mx-auto">
         {showConfetti && <Confetti />}
         <CardHeader>
-          <CardTitle>Microtasks</CardTitle>
+          <CardTitle>Microtask</CardTitle>
         </CardHeader>
         <CardContent>
           <div className="flex mb-4">
@@ -438,4 +438,4 @@ const Microtasks: React.FC = () => {
   );
 };
 
-export default Microtasks;
+export default Microtask;
