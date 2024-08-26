@@ -158,13 +158,19 @@ const BigTaskComponent: React.FC<{
   });
 
   const ref = useRef<HTMLDivElement>(null);
+  const previewRef = useRef<HTMLDivElement>(null);
+
+  useEffect(() => {
+    preview(previewRef, { captureDraggingState: true });
+  }, [preview]);
+
   drag(drop(ref));
 
   const completedMicroTasks = bigTask.microTasks.filter(mt => mt.completed).length;
   const progress = bigTask.microTasks.length > 0 ? (completedMicroTasks / bigTask.microTasks.length) * 100 : 0;
 
   return (
-    <div ref={preview} style={{ opacity: isDragging ? 0.5 : 1 }} className="mb-4">
+    <div ref={previewRef} style={{ opacity: isDragging ? 0.5 : 1 }} className="mb-4">
       <div ref={ref} className="flex items-center mb-2 cursor-move">
         <Button variant="ghost" size="icon" onClick={() => setIsExpanded(!isExpanded)}>
           {isExpanded ? <ChevronDown size={20} /> : <ChevronRight size={20} />}
