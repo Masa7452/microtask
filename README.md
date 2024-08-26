@@ -8,6 +8,8 @@ You can now access Microtask from anywhere! Check it out here:
 
 Feel free to share this link with friends, family, or anyone who needs a cool task management tool!
 
+Microtasks uses local storage for data persistence, ensuring your privacy and allowing for easy, worry-free usage. Your task data is stored only on your device, so you can use the app with peace of mind.
+
 ## 🌟 Features
 
 - 📊 Hierarchical task structure with Big Tasks and Microtasks
