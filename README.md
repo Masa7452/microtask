@@ -1,23 +1,21 @@
-# 🚀 Microtask
+# 🚀 Microtasks
 
-Microtask is a straightforward and minimalist To-Do list application. Built with React and the shadcn/ui component library, it offers a clean and easy-to-use interface for basic task management.
-
-You can now access Microtask from anywhere! Check it out here:
-
-[https://microtask.vercel.app/](https://microtask.vercel.app/)
-
-Feel free to share this link with friends, family, or anyone who needs a cool task management tool!
-😎✨
+Microtasks is an advanced and intuitive task management application. Built with React and the shadcn/ui component library, it offers a clean and powerful interface for hierarchical task management.
 
 ## 🌟 Features
 
-- ➕ Add new tasks with a click or press Enter
-- ✅ Mark tasks as completed
-- 🗑️ Remove tasks effortlessly
-- 📊 Watch your progress in real-time
+- 📊 Hierarchical task structure with Big Tasks and Microtasks
+- ➕ Add new Big Tasks and Microtasks with a click or press Enter
+- ✅ Mark Microtasks as completed
+- 🗑️ Remove Big Tasks and Microtasks effortlessly
+- 📝 Edit task titles and descriptions
+- 🔀 Drag and drop to reorder Big Tasks and Microtasks
+- 📊 Watch your progress in real-time for each Big Task and overall
 - 🔄 Reset all tasks to uncompleted state
 - 🧹 Delete all tasks at once
-- 📱 Looks great on any device!
+- 💾 Automatic saving to local storage
+- 🎉 Celebration with confetti when all tasks are completed
+- 📱 Responsive design - looks great on any device!
 
 ## 🛠️ Tech Stack
 
@@ -25,56 +23,61 @@ Feel free to share this link with friends, family, or anyone who needs a cool ta
 - 🔥 Next.js
 - 🎨 shadcn/ui components
 - 🖌️ Lucide React icons
+- 🖱️ react-dnd for drag and drop functionality
+- 🎊 react-confetti for celebration effect
 
 ## 🚀 Quick Start
 
-Get Microtask running on your machine:
+Get Microtasks running on your machine:
 
 1. Clone the repo
-2. Install the goodies:
+2. Install the dependencies:
    ```
    npm install
    ```
-3. Fire up the dev server:
+3. Start the development server:
    ```
    npm run dev
    ```
-4. Visit [http://localhost:3000](http://localhost:3000) and start crushing those tasks!
+4. Visit [http://localhost:3000](http://localhost:3000) and start organizing your tasks!
 
 ## 🎮 How to Use
 
-- Type your task in the input field and press Enter or click the "+" button to add it
-- Click the checkbox next to a task to mark it as complete
-- Click the trash icon to remove a task
-- Track your overall progress with the progress bar at the top
-- Use the "Reset all tasks" button to mark all tasks as uncompleted
+- Type your Big Task in the input field and press Enter or click the "+" button to add it
+- Click the chevron icon next to a Big Task to expand/collapse its Microtasks
+- Add Microtasks within each Big Task
+- Click the checkbox next to a Microtask to mark it as complete
+- Click the edit icon to modify task titles
+- Drag and drop tasks to reorder them
+- Track your overall progress and individual Big Task progress with the progress bars
+- Use the "Reset all tasks" button to mark all Microtasks as uncompleted
 - Use the "Delete all tasks" button to remove all tasks at once (confirmation required)
 
 ## 🚀 Deployment
 
-Microtask is living in the cloud thanks to Vercel. Want your own instance? Here's how:
+Microtasks can be easily deployed using Vercel. Here's how:
 
-1. Get a Vercel account at https://vercel.com
-2. Install Vercel's magic wand (CLI):
+1. Sign up for a Vercel account at https://vercel.com
+2. Install the Vercel CLI:
    ```
    npm i -g vercel
    ```
-3. Navigate to your project's home
+3. Navigate to your project directory
 4. Log in to Vercel:
    ```
    vercel login
    ```
-5. Deploy with a simple:
+5. Deploy with:
    ```
    vercel
    ```
-6. Follow the CLI's friendly prompts and you're set!
+6. Follow the CLI prompts to complete the deployment
 
-Vercel will give you a shiny new URL where your app lives. For future updates, just run `vercel` again, or let Vercel automatically deploy when you push to GitHub!
+Vercel will provide you with a URL where your app is hosted. For future updates, simply run `vercel` again, or set up automatic deployments with GitHub integration.
 
 ## 🌈 Customization
 
-Microtask is designed to be easily customizable. You can fork this project and make it your own in just a few steps:
+Microtasks is designed to be easily customizable. You can fork this project and make it your own:
 
 1. Fork the repository on GitHub
 2. Clone your forked repository to your local machine
@@ -85,9 +88,8 @@ Microtask is designed to be easily customizable. You can fork this project and m
 4. Push your changes back to your GitHub repository
 5. Deploy your customized version using Vercel (see Deployment section above)
 
-The project structure is simple and the code is well-commented, making it easy for you to understand and modify. Feel free to experiment and make Microtask truly your own!
-😎✨
+The project structure is modular and the code is well-commented, making it easy for you to understand and modify.
 
 ## 🎉 Conclusion
 
-Microtask is now cooler, more accessible, and ready to help you conquer your tasks in style! With features like quick task addition with Enter key and real-time progress tracking, managing your to-dos has never been easier. Enjoy your productive journey! 🚀✨
+Microtasks is a powerful, flexible, and user-friendly task management application. With features like hierarchical task structure, drag-and-drop reordering, and real-time progress tracking, managing your projects and to-dos has never been more efficient. Enjoy your productive journey! 🚀✨
