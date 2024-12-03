@@ -1,6 +1,6 @@
 # 🚀 Microtask
 
-Microtasks is an advanced and intuitive task management application. Built with React and the shadcn/ui component library, it offers a clean and powerful interface for hierarchical task management.
+Microtasks is an intuitive task management application. Built with React and the shadcn/ui component library, it offers a clean and powerful interface for hierarchical task management.
 
 You can now access Microtask from anywhere! Check it out here:
 
