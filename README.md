@@ -4,7 +4,7 @@ Privacy-first, deliberately simple task management. No sign-ups, no cloud storag
 
 Microtask is an intuitive task management application that respects your privacy by storing everything locally. Built with React and shadcn/ui, it offers a clean interface for hierarchical task management without unnecessary complexity.
 
-![Screenshot 2024-12-18 at 20 58 01](https://github.com/user-attachments/assets/94f9d044-2b58-4231-a741-5c8fe7e65b33)
+![Screenshot 2024-12-18 at 23 19 51](https://github.com/user-attachments/assets/b6981222-9d5f-4fd5-b8b6-ceaecf112043)
 
 ## ✨ Why Microtask?
 
@@ -24,7 +24,7 @@ Microtask is an intuitive task management application that respects your privacy
 
 Access Microtask instantly: [https://microtask.vercel.app/](https://microtask.vercel.app/)
 
-![Screenshot 2024-12-18 at 20 59 02](https://github.com/user-attachments/assets/65981572-ef9e-4c9a-ad4a-993066878fcf)
+![Screenshot 2024-12-18 at 23 22 33](https://github.com/user-attachments/assets/a6f2622e-783e-4fbe-88f9-a3c764e1bf1d)
 
 ## 🌟 Features
 
