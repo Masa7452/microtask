@@ -7,7 +7,6 @@ Microtask is an intuitive task management application that respects your privacy
 👉 **Try it now**: [https://microtask.vercel.app/](https://microtask.vercel.app/)
 
 ![Microtask main interface](https://github.com/user-attachments/assets/b6981222-9d5f-4fd5-b8b6-ceaecf112043)
-_Clean and intuitive task management interface_
 
 ## 📋 Quick Overview
 
@@ -17,7 +16,6 @@ _Clean and intuitive task management interface_
 - 🚀 **Lightning Fast**: No server calls, instant updates
 
 ![Task organization features](https://github.com/user-attachments/assets/a6f2622e-783e-4fbe-88f9-a3c764e1bf1d)
-_Hierarchical task organization with drag-and-drop support_
 
 ## 👥 Who is this for?
 
