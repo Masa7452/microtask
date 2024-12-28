@@ -1,6 +1,6 @@
 # 🚀 Microtask
 
-Privacy-first, deliberately simple task management. No sign-ups, no cloud storage, just you and your tasks.
+Privacy-first, deliberately spuer simple task management. No sign-ups, no cloud storage, just you and your tasks.
 
 Microtask is an intuitive task management application that respects your privacy by storing everything locally. Built with React and shadcn/ui, it offers a clean interface for hierarchical task management without unnecessary complexity.
 
