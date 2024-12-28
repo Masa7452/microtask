@@ -7,6 +7,19 @@ const inter = Inter({ subsets: ['latin'] })
 export const metadata: Metadata = {
   title: 'Microtask',
   description: 'A simple and effective todo app for managing your tasks',
+  icons: {
+    icon: '/microtask-logo.png',
+    apple: '/microtask-logo.png',
+  },
+  openGraph: {
+    title: 'Microtask',
+    description: 'A simple and effective todo app for managing your tasks',
+    images: [{
+      url: '/microtask-logo.png',
+      width: 800,
+      height: 600,
+    }],
+  },
 }
 
 export default function RootLayout({
